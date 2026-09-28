@@ -1,0 +1,4 @@
+*.command export-ignore
+SETUP.command -export-ignore
+OPEN.command -export-ignore
+SAMPLES.command -export-ignore

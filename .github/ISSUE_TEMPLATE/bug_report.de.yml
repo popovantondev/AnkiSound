@@ -1,0 +1,42 @@
+name: "DE · Fehlerbericht"
+description: "Melden Sie einen reproduzierbaren Fehler ohne persönliche Anki-Daten."
+title: "Fehler: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Hängen Sie keinen Anki-Export, Kartentext, keine Audiodatei, Auftragsordner,
+        Protokolle, Zugangsdaten oder lokalen Pfad an. Verwenden Sie künstliche Beispieldaten.
+  - type: input
+    id: version
+    attributes:
+      label: App-Version
+      placeholder: 3.4.10
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: macOS-Version und Mac-Modell
+      placeholder: macOS 15, Apple Silicon
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte zur Reproduktion
+      description: Verwenden Sie bei Bedarf ein künstliches Kartenbeispiel.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Erwartetes und tatsächliches Verhalten
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Bereinigte Fehlerdetails
+      description: Entfernen Sie Kartentexte, Namen, Pfade, Kontokennungen und persönliche Angaben.

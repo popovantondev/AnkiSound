@@ -1,0 +1,42 @@
+name: "RU · Сообщить об ошибке"
+description: "Опишите воспроизводимую ошибку без личных данных Anki."
+title: "Ошибка: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Не прикладывайте экспорт Anki, текст карточек, аудио, папку задания,
+        журналы, учётные данные или локальные пути. Используйте искусственный пример.
+  - type: input
+    id: version
+    attributes:
+      label: Версия программы
+      placeholder: 3.4.10
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: Версия macOS и модель Mac
+      placeholder: macOS 15, Apple Silicon
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Шаги для воспроизведения
+      description: При необходимости приведите искусственный пример карточки.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидаемое и фактическое поведение
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Очищенные сведения об ошибке
+      description: Удалите текст карточек, имена, пути, идентификаторы аккаунтов и личные данные.

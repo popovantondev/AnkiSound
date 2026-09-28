@@ -1,0 +1,22 @@
+name: "RU · Предложить улучшение"
+description: "Предложите улучшение для Anki SOUND."
+title: "Предложение: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Какую проблему нужно решить?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Что должна делать программа?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Дополнительный контекст
+      description: Не прикладывайте личные экспорты Anki, тексты карточек или аудио.

@@ -1,0 +1,22 @@
+name: "DE · Funktionsvorschlag"
+description: "Schlagen Sie eine Verbesserung für Anki SOUND vor."
+title: "Vorschlag: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Welches Problem soll gelöst werden?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Was soll die Anwendung tun?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Zusätzlicher Kontext
+      description: Hängen Sie keine persönlichen Anki-Exporte, Kartentexte oder Audios an.

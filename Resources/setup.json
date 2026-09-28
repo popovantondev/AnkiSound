@@ -1,0 +1,14 @@
+{
+  "de": {
+    "install": "Komponenten und Stimmen werden installiert…",
+    "ready": "Installation fertig. Öffnen Sie previews/Anki SOUND.app."
+  },
+  "en": {
+    "install": "Installing components and voices…",
+    "ready": "Setup complete. Open previews/Anki SOUND.app."
+  },
+  "ru": {
+    "install": "Установка компонентов и голосов…",
+    "ready": "Установка завершена. Откройте previews/Anki SOUND.app."
+  }
+}

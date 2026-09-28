@@ -1,0 +1,31 @@
+{
+  "silero-v5_5_ru": {
+    "url": "https://models.silero.ai/models/tts/ru/v5_5_ru.pt",
+    "filename": "v5_5_ru.pt",
+    "format": "file",
+    "sha256": "50081637b602126ee06cb3bc8a744d25651d2da149ee8864b9a379bfdd934437",
+    "required": ["v5_5_ru.pt"]
+  },
+  "sherpa-onnx-supertonic-3-tts-int8-2026-05-11": {
+    "sha256": "82fa96f91c4ef8abaae3a14a3f4153facf88bed821d1f7331cec2700f432c427",
+    "required": [
+      "duration_predictor.int8.onnx",
+      "text_encoder.int8.onnx",
+      "vector_estimator.int8.onnx",
+      "vocoder.int8.onnx",
+      "tts.json",
+      "unicode_indexer.bin",
+      "voice.bin"
+    ]
+  },
+  "vits-piper-fr_FR-siwis-medium": {
+    "sha256": "375909aa30842b3a4efa10b1beb1d761af792960ae6873b4d53889f96c66195b",
+    "required": [
+      "fr_FR-siwis-medium.onnx",
+      "tokens.txt",
+      "espeak-ng-data/fr_dict",
+      "espeak-ng-data/phondata",
+      "espeak-ng-data/phonindex"
+    ]
+  }
+}

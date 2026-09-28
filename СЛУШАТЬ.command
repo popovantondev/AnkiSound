@@ -1,0 +1,4 @@
+#!/bin/zsh
+set -eu
+cd -- "${0:A:h}"
+/usr/bin/python3 scripts/launch.py open

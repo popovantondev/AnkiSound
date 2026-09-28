@@ -1,0 +1,46 @@
+{
+  "voices": {
+    "ru": {
+      "name": "Kseniya",
+      "speaker_id": "kseniya",
+      "speed": 1.0,
+      "backend": "silero",
+      "model": "silero-v5_5_ru",
+      "model_file": "v5_5_ru.pt"
+    },
+    "de": {
+      "speaker_id": 9,
+      "name": "M5",
+      "speed": 0.82,
+      "backend": "supertonic",
+      "model": "sherpa-onnx-supertonic-3-tts-int8-2026-05-11"
+    },
+    "en": {
+      "speaker_id": 5,
+      "name": "M1",
+      "speed": 0.86,
+      "backend": "supertonic",
+      "model": "sherpa-onnx-supertonic-3-tts-int8-2026-05-11"
+    },
+    "es": {
+      "speaker_id": 5,
+      "name": "M1",
+      "speed": 0.86,
+      "backend": "supertonic",
+      "model": "sherpa-onnx-supertonic-3-tts-int8-2026-05-11"
+    },
+    "fr": {
+      "speaker_id": 5,
+      "name": "M1",
+      "speed": 0.86,
+      "backend": "supertonic",
+      "model": "sherpa-onnx-supertonic-3-tts-int8-2026-05-11"
+    }
+  },
+  "steps": 12,
+  "leading_seconds": 0.15,
+  "trailing_seconds": 0.65,
+  "minimum_source_tail_seconds": 0.03,
+  "playlist_gap_seconds": 0.35,
+  "maximum_attempts": 3
+}
