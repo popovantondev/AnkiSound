@@ -33,7 +33,7 @@ Laden Sie das macOS-Paket aus den [GitHub-Releases](https://github.com/popovanto
 2. Öffnen Sie Anki SOUND mit `OPEN.command`.
 3. Exportieren Sie in Anki einen Stapel als `.apkg`, wählen Sie den Modus, hören Sie die Vorschau an und starten Sie die Verarbeitung.
 
-Die Anwendung ist ad-hoc signiert und nicht von Apple notarisiert. macOS kann den ersten Start blockieren. Prüfen Sie Paket und Prüfsumme und folgen Sie dann der Anleitung zur einzelnen App in der [Benutzeranleitung](docs/Guide-de.html). Deaktivieren Sie Gatekeeper nicht global.
+Die Anwendung ist ad-hoc signiert und nicht von Apple notarisiert. macOS kann den ersten Start blockieren. Prüfen Sie Paket und Prüfsumme und folgen Sie dann der Anleitung zur einzelnen App in der [Benutzeranleitung](https://popovantondev.github.io/AnkiSound/Guide-de.html). Deaktivieren Sie Gatekeeper nicht global.
 
 ## Auswahlarten
 
@@ -53,9 +53,9 @@ Französische Karten verwenden `FR` auf der Vorderseite und `DE` auf der Rückse
 
 ## Dokumentation
 
-- [Deutsche Anleitung](docs/Guide-de.html)
-- [Englische Anleitung](docs/Guide-en.html)
-- [Russische Anleitung](docs/Guide-ru.html)
+- [Deutsche Anleitung](https://popovantondev.github.io/AnkiSound/Guide-de.html)
+- [Englische Anleitung](https://popovantondev.github.io/AnkiSound/Guide-en.html)
+- [Russische Anleitung](https://popovantondev.github.io/AnkiSound/Guide-ru.html)
 - [Änderungen](CHANGELOG.md)
 - [Drittkomponenten und Modellbedingungen](THIRD_PARTY.md)
 - [Mitwirken](CONTRIBUTING.de.md) · [Sicherheitsrichtlinie](SECURITY.de.md) · [Lizenz](LICENSE.de.md)

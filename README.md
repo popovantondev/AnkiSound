@@ -33,7 +33,7 @@ Download the macOS package from [GitHub Releases](https://github.com/popovantond
 2. Run `OPEN.command` to launch Anki SOUND.
 3. Export a deck from Anki as `.apkg`, choose a selection mode, listen to the preview, and start when ready.
 
-The app is ad-hoc signed and not notarized by Apple. macOS may block the first launch. Review the package and checksum, then follow the per-app instructions in [the user guide](docs/Guide-en.html). Do not disable Gatekeeper globally.
+The app is ad-hoc signed and not notarized by Apple. macOS may block the first launch. Review the package and checksum, then follow the per-app instructions in [the user guide](https://popovantondev.github.io/AnkiSound/Guide-en.html). Do not disable Gatekeeper globally.
 
 ## Selection modes
 
@@ -53,9 +53,9 @@ French cards use `FR` on the front and `DE` on the back. Other supported languag
 
 ## Documentation
 
-- [English user guide](docs/Guide-en.html)
-- [German user guide](docs/Guide-de.html)
-- [Russian user guide](docs/Guide-ru.html)
+- [English user guide](https://popovantondev.github.io/AnkiSound/Guide-en.html)
+- [German user guide](https://popovantondev.github.io/AnkiSound/Guide-de.html)
+- [Russian user guide](https://popovantondev.github.io/AnkiSound/Guide-ru.html)
 - [Change history](CHANGELOG.en.md)
 - [Third-party components and model terms](THIRD_PARTY.en.md)
 - [Contributing](CONTRIBUTING.md) · [Security policy](SECURITY.md) · [License](LICENSE)
