@@ -10,6 +10,10 @@
 
 **Apple Silicon · macOS 13+ · Version 3.4.11**
 
+<p align="center"><img src="docs/images/guide-en.png" width="760" alt="Anki SOUND interface in English, clean start with no export selected"></p>
+
+*English interface · Clean start with no export selected.*
+
 Anki SOUND is a native macOS app that reads an Anki `.apkg` export, generates speech locally, and creates a separate verified package. Choose cards that already contain audio, cards with language-specific tags, or cards in a selected deck.
 
 ## How it works

@@ -10,6 +10,10 @@
 
 **Apple Silicon · macOS 13+ · Version 3.4.11**
 
+<p align="center"><img src="docs/images/guide-de.png" width="760" alt="Anki SOUND Oberfläche auf Deutsch, sauberer Start ohne ausgewählten Export"></p>
+
+*Deutsche Oberfläche · Frischer Start ohne ausgewählten Export.*
+
 Anki SOUND ist eine native macOS-Anwendung. Sie liest einen Anki-Export im Format `.apkg`, erzeugt Sprache lokal und erstellt ein separates, geprüftes Paket. Sie können Karten mit vorhandenen Audios, Karten mit sprachspezifischen Tags oder einen ausgewählten Stapel verarbeiten.
 
 ## So funktioniert es
