@@ -38,10 +38,10 @@ The app is ad-hoc signed and not notarized by Apple. macOS may block the first l
 ## Selection modes
 
 - **Existing audio:** add audio in Anki using your preferred method; Anki SOUND replaces only existing `[sound:…]` references.
-- **Language tags:** choose a field and configure a separate exact tag for each language. A tag can be used for any deck name; ambiguous language tags are skipped.
+- **Language tags:** configure one exact tag for each language. For recognized deck roots, the deck and field determine the language and the matching tag is required. In an unrecognized deck, one unambiguous tag can infer the language for `Front` only; multiple matching language tags are skipped.
 - **Selected deck:** select the deck, field and speech language explicitly.
 
-French cards use `FR` on the front and `DE` on the back. Other supported languages use `Front`. The app can preview up to two currently selected cards and stops that preview when the window closes or the selection changes.
+Recognized French decks map `FR` to the front and `DE` to the back. For example, `fr-audio` selects French `Front`, while `de-audio` selects German `Back`. For an unrecognized deck, `custom-de` on `Front` can select German; `custom-de` plus `custom-en` is ambiguous and skipped. An unrecognized `Back` does not infer a language; use Selected deck to choose explicitly. Untagged cards are skipped and tag matching uses exact tokens. The app can preview up to two currently selected cards and stops that preview when the window closes or the selection changes.
 
 ## Data and limitations
 
