@@ -38,10 +38,10 @@ Die Anwendung ist ad-hoc signiert und nicht von Apple notarisiert. macOS kann de
 ## Auswahlarten
 
 - **Vorhandene Audios:** Fügen Sie Audio zunächst in Anki auf Ihre bevorzugte Weise hinzu. Anki SOUND ersetzt nur vorhandene `[sound:…]`-Verweise.
-- **Sprach-Tags:** Wählen Sie Feld und Tags je Sprache. Tags werden exakt geprüft und funktionieren auch bei eigenen Stapelnamen; mehrdeutige Sprach-Tags werden übersprungen.
+- **Sprach-Tags:** Legen Sie je Sprache einen exakten Tag fest. Bei erkannten Stapelwurzeln bestimmen Stapel und Feld die Sprache; der passende Tag muss vorhanden sein. Bei einem unbekannten Stapel kann genau ein eindeutiger Tag die Sprache nur für `Front` bestimmen. Mehrere passende Sprach-Tags sind mehrdeutig und werden übersprungen.
 - **Ausgewählter Stapel:** Legen Sie Stapel, Feld und Sprechsprache ausdrücklich fest.
 
-Französische Karten verwenden `FR` auf der Vorderseite und `DE` auf der Rückseite. Die übrigen Sprachen verwenden `Front`. Bis zu zwei Karten aus der aktuellen Auswahl lassen sich probehören. Beim Schließen des Fensters oder Ändern der Auswahl stoppt die Vorschau.
+Erkannte französische Stapel ordnen `FR` dem Feld `Front` und `DE` dem Feld `Back` zu. Beispiel: `fr-audio` wählt französisches `Front`, `de-audio` deutsches `Back`. Bei unbekanntem Stapelnamen kann `custom-de` auf `Front` Deutsch bestimmen; `custom-de` zusammen mit `custom-en` ist mehrdeutig und wird übersprungen. Für `Back` eines unbekannten Stapels wird keine Sprache abgeleitet; verwenden Sie „Ausgewählter Stapel“, um sie ausdrücklich festzulegen. Unmarkierte Karten werden übersprungen, Tags werden als exakte Wörter geprüft. Bis zu zwei Karten aus der aktuellen Auswahl lassen sich probehören. Beim Schließen des Fensters oder Ändern der Auswahl stoppt die Vorschau.
 
 ## Daten und Grenzen
 
