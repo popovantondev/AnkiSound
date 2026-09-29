@@ -1,5 +1,9 @@
 # Änderungen
 
+## 3.4.11
+
+- Die App-Grafik wird auch auf GitHub Pages und in den herunterladbaren Anleitungen korrekt angezeigt. Screenshots der Anleitung enthalten keine macOS-Aufnahmesteuerung mehr.
+
 ## 3.4.10
 
 - Build-Nummer und Symbolressource folgen der App-Version. Ein neuer App-Pfad ermöglicht die Prüfung ohne den alten Symbolcache.

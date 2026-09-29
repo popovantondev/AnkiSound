@@ -8,7 +8,7 @@
 
 [Download for macOS](https://github.com/popovantondev/AnkiSound/releases/latest) · [German](README.de.md) · [Russian](README.ru.md) · [English](README.md)
 
-**Apple Silicon · macOS 13+ · Version 3.4.10**
+**Apple Silicon · macOS 13+ · Version 3.4.11**
 
 Anki SOUND is a native macOS app that reads an Anki `.apkg` export, generates speech locally, and creates a separate verified package. Choose cards that already contain audio, cards with language-specific tags, or cards in a selected deck.
 

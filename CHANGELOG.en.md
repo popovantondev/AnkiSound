@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.4.11
+
+- The app icon now loads on GitHub Pages and in downloaded guides. Guide screenshots no longer include the macOS capture control.
+
 ## 3.4.10
 
 - Build numbers and icon resources now follow the app version. A fresh app path allows verification without the old icon cache.
