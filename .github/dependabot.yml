@@ -10,3 +10,10 @@ updates:
     schedule:
       interval: monthly
     open-pull-requests-limit: 3
+    groups:
+      sherpa-runtime:
+        patterns: ["sherpa-onnx", "sherpa-onnx-core"]
+    ignore:
+      # 2.14 requires Python >=3.10; the application still supports Python 3.9.
+      - dependency-name: torch
+        versions: ["2.14.0"]

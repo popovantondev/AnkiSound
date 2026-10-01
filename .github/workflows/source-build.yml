@@ -1,6 +1,7 @@
 name: Source and build checks
 on:
   push:
+    branches: [main]
   pull_request:
   workflow_dispatch:
 permissions:
@@ -23,7 +24,18 @@ jobs:
         with:
           python-version: '3.12'
       - name: Install dependencies for model-free tests
-        run: python -m pip install "numpy==1.26.4" "num2words==0.5.14" "zstandard==0.25.0" "sherpa-onnx==1.13.7"
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import subprocess, sys
+          wanted = {'numpy', 'num2words', 'zstandard', 'sherpa-onnx', 'sherpa-onnx-core', 'docopt'}
+          pins = {line.split('==')[0]: line for line in Path('requirements.txt').read_text().splitlines() if '==' in line and line.split('==')[0] in wanted}
+          if set(pins) != wanted:
+              raise SystemExit('Missing exact dependency pins for model-free checks')
+          if pins['sherpa-onnx'].split('==')[1] != pins['sherpa-onnx-core'].split('==')[1]:
+              raise SystemExit('sherpa-onnx and sherpa-onnx-core must use the same version')
+          subprocess.run([sys.executable, '-m', 'pip', 'install', *pins.values()], check=True)
+          PY
       - name: Check Python sources
         run: python -m compileall -q Sources scripts
       - name: Run existing model-free tests
