@@ -4,9 +4,27 @@
 
 # Anki SOUND
 
+<!-- public-release:start -->
+Ergänzt ausgewählte Anki-Karten um lokale Sprachausgabe und erstellt ein separat geprüftes Paket.
+
+**macOS 13+ · Apple Silicon · Release 3.4.11**
+
+**[Herunterladen](https://github.com/popovantondev/AnkiSound/releases/tag/v3.4.11)** · **[Anleitung](https://popovantondev.github.io/AnkiSound/Guide-de.html)** · **[Fehler melden](https://github.com/popovantondev/AnkiSound/issues/new/choose)**
+
+**Voraussetzungen und Grenzen:** Python 3.9–3.12; Internet für die erste Installation von Paketen und Stimmen. Keine Apple-Notarisierung.
+
+**Erste Schritte:** Den gesamten Ordner an einen beschreibbaren Ort entpacken. SETUP.command, danach OPEN.command starten; einen .apkg-Export wählen.
+
+**App-Dateien:**
+
+- [`Anki_SOUND-v3.4.11-macOS-AppleSilicon.zip`](https://github.com/popovantondev/AnkiSound/releases/download/v3.4.11/Anki_SOUND-v3.4.11-macOS-AppleSilicon.zip)
+
+**Prüfsummen:** [`SHA256SUMS.txt`](https://github.com/popovantondev/AnkiSound/releases/download/v3.4.11/SHA256SUMS.txt)
+<!-- public-release:end -->
+
 **Klare, lokal erzeugte Sprache für ausgewählte Anki-Karten. Das Original bleibt unverändert.**
 
-[Download für macOS](https://github.com/popovantondev/AnkiSound/releases/latest) · [Deutsch](README.de.md) · [Russisch](README.ru.md) · [Englisch](README.md)
+[Download für macOS](https://github.com/popovantondev/AnkiSound/releases/tag/v3.4.11) · [Deutsch](README.de.md) · [Russisch](README.ru.md) · [Englisch](README.md)
 
 **Apple Silicon · macOS 13+ · Version 3.4.11**
 
@@ -31,7 +49,7 @@ Die Sprachausgabe unterstützt Deutsch, Französisch, Englisch, Spanisch und Rus
 
 ## Download und Installation
 
-Laden Sie das macOS-Paket aus den [GitHub-Releases](https://github.com/popovantondev/AnkiSound/releases/latest) herunter. Entpacken Sie den vollständigen Ordner an einen beschreibbaren Ort. Anwendung und Ordner müssen zusammenbleiben.
+Laden Sie das macOS-Paket aus den [GitHub-Releases](https://github.com/popovantondev/AnkiSound/releases/tag/v3.4.11) herunter. Entpacken Sie den vollständigen Ordner an einen beschreibbaren Ort. Anwendung und Ordner müssen zusammenbleiben.
 
 1. Starten Sie `SETUP.command`. Dafür benötigen Sie Python 3.9–3.12 und eine Internetverbindung, um festgelegte Pakete zu installieren und Stimmenmodelle herunterzuladen.
 2. Öffnen Sie Anki SOUND mit `OPEN.command`.
