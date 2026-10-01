@@ -4,4 +4,4 @@ num2words==0.5.14
 zstandard==0.25.0
 sherpa-onnx-core==1.13.7
 docopt==0.6.2
-torch==2.8.0
+torch==2.14.0
