@@ -19,11 +19,27 @@ figure{margin:24px 0 30px;padding:12px;background:#fff;border:1px solid var(--li
 footer{margin-top:24px;padding:20px 10px;color:var(--muted);text-align:center;font-size:14px}
 @media(max-width:620px){.shell{width:min(100% - 22px,1000px);padding-top:12px}.top{align-items:flex-start;flex-direction:column}.hero{grid-template-columns:1fr 66px;padding:26px 22px;border-radius:20px;gap:12px}.hero img{width:66px;height:66px}.lead{font-size:16px}.topic{padding:21px 19px}figure{padding:8px}}
 @media print{body{background:white}.shell{width:100%;padding:0}.top nav,figure{break-inside:avoid}.hero,.topic,figure{box-shadow:none}.topic{break-inside:avoid}}
+.release-summary code{overflow-wrap:anywhere}.release-actions{display:flex;gap:8px;flex-wrap:wrap}.release-link{display:inline-block;padding:9px 13px;border:1px solid #bdd1ed;border-radius:10px;background:#edf4ff;color:#0753ad;font-weight:650;text-decoration:none}.release-link:focus-visible{outline:3px solid #1677ff;outline-offset:3px}
 </style>
 </head>
 <body><div class="shell">
 <header class="top"><a class="brand" href="./"><img src="images/AppIcon.png" alt="Anki SOUND"><span>Anki SOUND</span></a><nav aria-label="Sprache"><a href="Guide-de.html" aria-current=page>Deutsch</a> <a href="Guide-en.html">Englisch</a> <a href="Guide-ru.html">Russisch</a></nav></header>
 <main><section class="hero"><div><p class="kicker">BENUTZERHANDBUCH · VERSION 3.4.11</p><h1>Anki SOUND</h1><p class="lead">Ein macOS-Werkzeug, das ausgewählte Anki-Karten lokal vertont und einen separat geprüften Export erzeugt. Fortschritt bleibt gespeichert; eine Pause beendet zuerst die laufende Aufnahme.</p></div><img src="images/AppIcon.png" alt=""></section>
+<!-- public-release:start -->
+<section class="topic release-summary" aria-label="Erste Schritte">
+<p>Ergänzt ausgewählte Anki-Karten um lokale Sprachausgabe und erstellt ein separat geprüftes Paket.</p>
+<p><strong>macOS 13+ · Apple Silicon · Release 3.4.11</strong></p>
+<p class="release-actions"><a class="release-link" href="https://github.com/popovantondev/AnkiSound/releases/tag/v3.4.11">Herunterladen</a> <a class="release-link" href="https://popovantondev.github.io/AnkiSound/Guide-de.html">Anleitung</a> <a class="release-link" href="https://github.com/popovantondev/AnkiSound/issues/new/choose">Fehler melden</a></p>
+<p><strong>Voraussetzungen und Grenzen:</strong> Python 3.9–3.12; Internet für die erste Installation von Paketen und Stimmen. Keine Apple-Notarisierung.</p>
+<p><strong>Erste Schritte:</strong> Den gesamten Ordner an einen beschreibbaren Ort entpacken. SETUP.command, danach OPEN.command starten; einen .apkg-Export wählen.</p>
+<h2>App-Dateien</h2>
+<ul>
+<li><a href="https://github.com/popovantondev/AnkiSound/releases/download/v3.4.11/Anki_SOUND-v3.4.11-macOS-AppleSilicon.zip"><code>Anki_SOUND-v3.4.11-macOS-AppleSilicon.zip</code></a></li>
+</ul>
+<p><strong>Prüfsummen:</strong> <a href="https://github.com/popovantondev/AnkiSound/releases/download/v3.4.11/SHA256SUMS.txt">SHA256SUMS.txt</a></p>
+</section>
+<!-- public-release:end -->
+
 <figure><img src="images/guide-de.png" alt="Anwendungsoberfläche auf Deutsch. Die Abbildung zeigt einen frischen Start ohne ausgewählten Export."><figcaption>Anwendungsoberfläche auf Deutsch. Die Abbildung zeigt einen frischen Start ohne ausgewählten Export.</figcaption></figure>
 <section class="topic"><h2>Projektbeschreibung</h2><div class="copy">Anki SOUND verbindet eine native macOS-Oberfläche mit einer wiederaufnehmbaren lokalen Sprachverarbeitung. Schwerpunkte: explizite Auswahl, Erhalt von Lerndaten, atomare Ausgabedateien, Prüfung des Anki-Paketformats und barrierearm bedienbare Steuerelemente. Die aktuelle Version ist ein lokaler Prototyp; kein Anki-Plugin und keine signierte öffentliche Distribution.</div></section>
 <section class="topic"><h2>Installation</h2><div class="copy">Voraussetzungen: Mac mit Apple Silicon, macOS 13 oder neuer sowie Python 3.9–3.12. Getestet auf macOS 15.7 / Python 3.9.6. Das Paket enthält Anwendung, Quellcode, Konfiguration und diese Anleitung. Python, Pakete und Stimmen sind NICHT enthalten. Entpacken Sie den gesamten Ordner an einen beschreibbaren Ort. Falls Python fehlt: installieren Sie eine passende Version von python.org. Starten Sie SETUP.command (Internet erforderlich). Danach öffnen Sie previews/Anki SOUND.app. Anwendung und Projektordner müssen zusammenbleiben; bei einem Ordnerwechsel SETUP.command erneut ausführen. Die Anwendung ist lokal signiert, nicht notarisiert. Falls macOS sie blockiert, prüfen Sie Herkunft und Prüfsumme und öffnen Sie sie über Systemeinstellungen → Datenschutz &amp; Sicherheit. Keine globalen Sicherheitseinstellungen abschalten.</div></section>

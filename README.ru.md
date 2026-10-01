@@ -4,9 +4,27 @@
 
 # Anki SOUND
 
+<!-- public-release:start -->
+Добавляет локальную озвучку выбранным карточкам Anki и сохраняет отдельный проверенный пакет.
+
+**macOS 13+ · Apple Silicon · Выпуск 3.4.11**
+
+**[Скачать](https://github.com/popovantondev/AnkiSound/releases/tag/v3.4.11)** · **[Инструкция](https://popovantondev.github.io/AnkiSound/Guide-ru.html)** · **[Сообщить об ошибке](https://github.com/popovantondev/AnkiSound/issues/new/choose)**
+
+**Требования и ограничения:** Python 3.9–3.12; интернет для первоначальной установки зависимостей и моделей. Приложение не нотарифицировано Apple.
+
+**Первые шаги:** Распакуйте всю папку в доступное для записи место. Выполните SETUP.command, затем OPEN.command; выберите экспорт .apkg.
+
+**Файлы приложения:**
+
+- [`Anki_SOUND-v3.4.11-macOS-AppleSilicon.zip`](https://github.com/popovantondev/AnkiSound/releases/download/v3.4.11/Anki_SOUND-v3.4.11-macOS-AppleSilicon.zip)
+
+**Контрольные суммы:** [`SHA256SUMS.txt`](https://github.com/popovantondev/AnkiSound/releases/download/v3.4.11/SHA256SUMS.txt)
+<!-- public-release:end -->
+
 **Разборчивая локальная озвучка выбранных карточек Anki. Исходная коллекция остаётся нетронутой.**
 
-[Скачать для macOS](https://github.com/popovantondev/AnkiSound/releases/latest) · [Немецкий](README.de.md) · [Русский](README.ru.md) · [Английский](README.md)
+[Скачать для macOS](https://github.com/popovantondev/AnkiSound/releases/tag/v3.4.11) · [Немецкий](README.de.md) · [Русский](README.ru.md) · [Английский](README.md)
 
 **Apple Silicon · macOS 13+ · Версия 3.4.11**
 
@@ -31,7 +49,7 @@ flowchart LR
 
 ## Скачать и установить
 
-Скачайте пакет macOS на странице [GitHub Releases](https://github.com/popovantondev/AnkiSound/releases/latest) и распакуйте всю папку в место, доступное для записи. Приложение должно оставаться рядом с этой папкой.
+Скачайте пакет macOS на странице [GitHub Releases](https://github.com/popovantondev/AnkiSound/releases/tag/v3.4.11) и распакуйте всю папку в место, доступное для записи. Приложение должно оставаться рядом с этой папкой.
 
 1. Запустите `SETUP.command`. Для установки закреплённых зависимостей и моделей голосов нужны Python 3.9–3.12 и интернет.
 2. Откройте Anki SOUND командой `OPEN.command`.

@@ -1,0 +1,78 @@
+{
+  "name": "Anki SOUND",
+  "version": "3.4.11",
+  "platform": "macOS 13+ · Apple Silicon",
+  "tag": "v3.4.11",
+  "description": {
+    "ru": "Добавляет локальную озвучку выбранным карточкам Anki и сохраняет отдельный проверенный пакет.",
+    "de": "Ergänzt ausgewählte Anki-Karten um lokale Sprachausgabe und erstellt ein separat geprüftes Paket.",
+    "en": "Add local speech to selected Anki cards and save a separately verified package."
+  },
+  "requirements": {
+    "ru": "Python 3.9–3.12; интернет для первоначальной установки зависимостей и моделей. Приложение не нотарифицировано Apple.",
+    "de": "Python 3.9–3.12; Internet für die erste Installation von Paketen und Stimmen. Keine Apple-Notarisierung.",
+    "en": "Python 3.9–3.12; internet for initial dependency and voice-model setup. Not notarized by Apple."
+  },
+  "start": {
+    "ru": "Распакуйте всю папку в доступное для записи место. Выполните SETUP.command, затем OPEN.command; выберите экспорт .apkg.",
+    "de": "Den gesamten Ordner an einen beschreibbaren Ort entpacken. SETUP.command, danach OPEN.command starten; einen .apkg-Export wählen.",
+    "en": "Extract the complete folder to a writable location. Run SETUP.command, then OPEN.command and select an .apkg export."
+  },
+  "schema_version": 1,
+  "repo": "AnkiSound",
+  "source_url": "https://github.com/popovantondev/AnkiSound",
+  "readmes": {
+    "en": [
+      "README.md"
+    ],
+    "de": [
+      "README.de.md"
+    ],
+    "ru": [
+      "README.ru.md"
+    ]
+  },
+  "guides": {
+    "ru": "docs/Guide-ru.html",
+    "de": "docs/Guide-de.html",
+    "en": "docs/Guide-en.html"
+  },
+  "help_url": "https://popovantondev.github.io/AnkiSound/Guide-{lang}.html",
+  "feedback_url": "https://github.com/popovantondev/AnkiSound/issues/new/choose",
+  "status": "release",
+  "release_url": "https://github.com/popovantondev/AnkiSound/releases/tag/v3.4.11",
+  "assets": [
+    {
+      "name": "Anki_SOUND-v3.4.11-macOS-AppleSilicon.zip",
+      "size": 5620663,
+      "url": "https://github.com/popovantondev/AnkiSound/releases/download/v3.4.11/Anki_SOUND-v3.4.11-macOS-AppleSilicon.zip"
+    },
+    {
+      "name": "Anki_SOUND-v3.4.11-source.zip",
+      "size": 3505710,
+      "url": "https://github.com/popovantondev/AnkiSound/releases/download/v3.4.11/Anki_SOUND-v3.4.11-source.zip"
+    },
+    {
+      "name": "BUILD_INFO.txt",
+      "size": 285,
+      "url": "https://github.com/popovantondev/AnkiSound/releases/download/v3.4.11/BUILD_INFO.txt"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "size": 368,
+      "url": "https://github.com/popovantondev/AnkiSound/releases/download/v3.4.11/SHA256SUMS.txt"
+    }
+  ],
+  "downloads": [
+    "Anki_SOUND-v3.4.11-macOS-AppleSilicon.zip"
+  ],
+  "checksums": [
+    "SHA256SUMS.txt"
+  ],
+  "version_files": [
+    {
+      "path": "VERSION",
+      "pattern": "^\\s*(\\S+)\\s*$"
+    }
+  ]
+}
