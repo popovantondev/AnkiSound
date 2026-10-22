@@ -1,0 +1,32 @@
+{
+  "folder": "docs",
+  "shots": {
+    "ru": "images/guide-ru.png",
+    "de": "images/guide-de.png",
+    "en": "images/guide-en.png"
+  },
+  "icon": "presentation-icon.png",
+  "palette": {
+    "accent": "#275fb6",
+    "tint": "#eaf1ff",
+    "hero": "#132b50",
+    "hero-end": "#255690"
+  },
+  "flow": {
+    "ru": [
+      "Карточки Anki",
+      "Настроить голос",
+      "Добавить озвучку"
+    ],
+    "de": [
+      "Anki-Karten",
+      "Stimme einrichten",
+      "Sprachausgabe ergänzen"
+    ],
+    "en": [
+      "Anki cards",
+      "Choose a voice",
+      "Add speech"
+    ]
+  }
+}
