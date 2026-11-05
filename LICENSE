@@ -1,7 +1,9 @@
 Copyright (c) 2026 popovantondev. All rights reserved.
 
-This repository is published for viewing and inspection of the source code as a portfolio. No license or other permission is granted to use, run, install, copy, modify, adapt, create derivative works from, distribute, sublicense, or commercially exploit this project or its source code, in whole or in part.
+The original source code in this repository is published for public viewing only, as a portfolio. No permission is granted to copy, modify, adapt, create derivative works from, redistribute, sublicense, sell, or commercially use the project's source code or modified versions.
 
-Any permission beyond viewing the source code requires prior written permission from the copyright holder. Third-party components, software packages, and voice models are not owned by the copyright holder and remain subject to their own licenses and terms, documented separately in THIRD_PARTY.en.md.
+The project owner permits individuals to download and run an unmodified release of the application for personal use. This permission does not authorize modification, redistribution, sublicensing, or commercial use of the application or its source code.
 
-This notice does not limit rights that cannot legally be restricted. All other rights are reserved.
+No open-source license is granted for this project. Third-party components, software packages, and voice models are not owned by the copyright holder and remain subject to their own licenses and terms, documented separately in THIRD_PARTY.en.md. The Russian voice weights are available for non-commercial use only.
+
+This notice does not limit rights that cannot legally be restricted. All other rights are reserved. This notice is not legal advice.

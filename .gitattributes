@@ -2,3 +2,5 @@
 SETUP.command -export-ignore
 OPEN.command -export-ignore
 SAMPLES.command -export-ignore
+docs/assets/kit/* text eol=lf
+docs/assets/kit/* linguist-vendored

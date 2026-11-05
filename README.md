@@ -1,91 +1,91 @@
 <div align="center">
-  <img src="Assets/AppIcon.png" width="160" alt="Anki SOUND app icon">
+  <img src="Assets/AppIcon.png" width="160" alt="Anki SOUND App-Symbol">
 </div>
 
 # Anki SOUND
 
 <!-- public-release:start -->
-Add local speech to selected Anki cards and save a separately verified package.
+Ergänzt ausgewählte Anki-Karten um lokale Sprachausgabe und erstellt ein separat geprüftes Paket.
 
 **macOS 13+ · Apple Silicon · Release 3.4.11**
 
-**[Download](https://github.com/popovantondev/AnkiSound/releases/tag/v3.4.11)** · **[User guide](https://popovantondev.github.io/AnkiSound/Guide-en.html)** · **[Report a problem](https://github.com/popovantondev/AnkiSound/issues/new/choose)**
+**[Herunterladen](https://github.com/popovantondev/AnkiSound/releases/tag/v3.4.11)** · **[Anleitung](https://popovantondev.github.io/AnkiSound/Guide-de.html)** · **[Fehler melden](https://github.com/popovantondev/AnkiSound/issues/new/choose)**
 
-**Requirements and limitations:** Python 3.9–3.12; internet for initial dependency and voice-model setup. Not notarized by Apple.
+**Voraussetzungen und Grenzen:** Python 3.9–3.12; Internet für die erste Installation von Paketen und Stimmen. Keine Apple-Notarisierung.
 
-**First steps:** Extract the complete folder to a writable location. Run SETUP.command, then OPEN.command and select an .apkg export.
+**Erste Schritte:** Den gesamten Ordner an einen beschreibbaren Ort entpacken. SETUP.command, danach OPEN.command starten; einen .apkg-Export wählen.
 
-**Application files:**
+**App-Dateien:**
 
 - [`Anki_SOUND-v3.4.11-macOS-AppleSilicon.zip`](https://github.com/popovantondev/AnkiSound/releases/download/v3.4.11/Anki_SOUND-v3.4.11-macOS-AppleSilicon.zip)
 
-**Checksums:** [`SHA256SUMS.txt`](https://github.com/popovantondev/AnkiSound/releases/download/v3.4.11/SHA256SUMS.txt)
+**Prüfsummen:** [`SHA256SUMS.txt`](https://github.com/popovantondev/AnkiSound/releases/download/v3.4.11/SHA256SUMS.txt)
 <!-- public-release:end -->
 
-**Add clear, local speech to selected Anki cards. Keep your original collection unchanged.**
+**Klare, lokal erzeugte Sprache für ausgewählte Anki-Karten. Das Original bleibt unverändert.**
 
-[Download for macOS](https://github.com/popovantondev/AnkiSound/releases/tag/v3.4.11) · [German](README.de.md) · [Russian](README.ru.md) · [English](README.md)
+[Download für macOS](https://github.com/popovantondev/AnkiSound/releases/tag/v3.4.11) · [Deutsch](README.md) · [Русский](README.ru.md) · [English](README.en.md)
 
 **Apple Silicon · macOS 13+ · Version 3.4.11**
 
-<p align="center"><img src="docs/images/guide-en.png" width="760" alt="Anki SOUND interface in English, clean start with no export selected"></p>
+<p align="center"><img src="docs/images/guide-de.png" width="760" alt="Anki SOUND Oberfläche auf Deutsch, sauberer Start ohne ausgewählten Export"></p>
 
-*English interface · Clean start with no export selected.*
+*Deutsche Oberfläche · Frischer Start ohne ausgewählten Export.*
 
-Anki SOUND is a native macOS app that reads an Anki `.apkg` export, generates speech locally, and creates a separate verified package. Choose cards that already contain audio, cards with language-specific tags, or cards in a selected deck.
+Anki SOUND ist eine native macOS-Anwendung. Sie liest einen Anki-Export im Format `.apkg`, erzeugt Sprache lokal und erstellt ein separates, geprüftes Paket. Sie können Karten mit vorhandenen Audios, Karten mit sprachspezifischen Tags oder einen ausgewählten Stapel verarbeiten.
 
-## How it works
+## So funktioniert es
 
 ```mermaid
 flowchart LR
-    A[Anki export] --> B[Choose cards and fields]
-    B --> C[Local speech synthesis]
-    C --> D[Verify media and learning data]
-    D --> E[New Anki package]
-    A -. original stays unchanged .-> F[Source export]
+    A[Anki-Export] --> B[Karten und Felder wählen]
+    B --> C[Lokale Sprachsynthese]
+    C --> D[Medien und Lernstand prüfen]
+    D --> E[Neues Anki-Paket]
+    A -. Original bleibt unverändert .-> F[Quell-Export]
 ```
 
-The app supports German, French, English, Spanish and Russian speech. Default voices are DE M5, FR M1, EN M1, ES M1 and RU Kseniya. The interface is available in German, English and Russian, with German selected by default. Voice choices are saved per language; selected cards can be previewed before processing.
+Die Sprachausgabe unterstützt Deutsch, Französisch, Englisch, Spanisch und Russisch. Standardstimmen: DE M5, FR M1, EN M1, ES M1 und RU Kseniya. Die Oberfläche gibt es auf Deutsch, Englisch und Russisch; Deutsch ist voreingestellt. Stimmen werden je Sprache gespeichert. Vor dem Start lassen sich ausgewählte Karten probehören.
 
-## Download and install
+## Download und Installation
 
-Download the macOS package from [GitHub Releases](https://github.com/popovantondev/AnkiSound/releases/tag/v3.4.11), extract the complete folder to a writable location, and keep the app together with that folder.
+Laden Sie das macOS-Paket aus den [GitHub-Releases](https://github.com/popovantondev/AnkiSound/releases/tag/v3.4.11) herunter. Entpacken Sie den vollständigen Ordner an einen beschreibbaren Ort. Anwendung und Ordner müssen zusammenbleiben.
 
-1. Run `SETUP.command`. Setup needs Python 3.9–3.12 and an internet connection to install pinned dependencies and download voice models.
-2. Run `OPEN.command` to launch Anki SOUND.
-3. Export a deck from Anki as `.apkg`, choose a selection mode, listen to the preview, and start when ready.
+1. Starten Sie `SETUP.command`. Dafür benötigen Sie Python 3.9–3.12 und eine Internetverbindung, um festgelegte Pakete zu installieren und Stimmenmodelle herunterzuladen.
+2. Öffnen Sie Anki SOUND mit `OPEN.command`.
+3. Exportieren Sie in Anki einen Stapel als `.apkg`, wählen Sie den Modus, hören Sie die Vorschau an und starten Sie die Verarbeitung.
 
-The app is ad-hoc signed and not notarized by Apple. macOS may block the first launch. Review the package and checksum, then follow the per-app instructions in [the user guide](https://popovantondev.github.io/AnkiSound/Guide-en.html). Do not disable Gatekeeper globally.
+Die Anwendung ist ad-hoc signiert und nicht von Apple notarisiert. macOS kann den ersten Start blockieren. Prüfen Sie Paket und Prüfsumme und folgen Sie dann der Anleitung zur einzelnen App in der [Benutzeranleitung](https://popovantondev.github.io/AnkiSound/Guide-de.html). Deaktivieren Sie Gatekeeper nicht global.
 
-## Selection modes
+## Auswahlarten
 
-- **Existing audio:** add audio in Anki using your preferred method; Anki SOUND replaces only existing `[sound:…]` references.
-- **Language tags:** configure one exact tag for each language. For recognized deck roots, the deck and field determine the language and the matching tag is required. In an unrecognized deck, one unambiguous tag can infer the language for `Front` only; multiple matching language tags are skipped.
-- **Selected deck:** select the deck, field and speech language explicitly.
+- **Vorhandene Audios:** Fügen Sie Audio zunächst in Anki auf Ihre bevorzugte Weise hinzu. Anki SOUND ersetzt nur vorhandene `[sound:…]`-Verweise.
+- **Sprach-Tags:** Legen Sie je Sprache einen exakten Tag fest. Bei erkannten Stapelwurzeln bestimmen Stapel und Feld die Sprache; der passende Tag muss vorhanden sein. Bei einem unbekannten Stapel kann genau ein eindeutiger Tag die Sprache nur für `Front` bestimmen. Mehrere passende Sprach-Tags sind mehrdeutig und werden übersprungen.
+- **Ausgewählter Stapel:** Legen Sie Stapel, Feld und Sprechsprache ausdrücklich fest.
 
-Recognized French decks map `FR` to the front and `DE` to the back. For example, `fr-audio` selects French `Front`, while `de-audio` selects German `Back`. For an unrecognized deck, `custom-de` on `Front` can select German; `custom-de` plus `custom-en` is ambiguous and skipped. An unrecognized `Back` does not infer a language; use Selected deck to choose explicitly. Untagged cards are skipped and tag matching uses exact tokens. The app can preview up to two currently selected cards and stops that preview when the window closes or the selection changes.
+Erkannte französische Stapel ordnen `FR` dem Feld `Front` und `DE` dem Feld `Back` zu. Beispiel: `fr-audio` wählt französisches `Front`, `de-audio` deutsches `Back`. Bei unbekanntem Stapelnamen kann `custom-de` auf `Front` Deutsch bestimmen; `custom-de` zusammen mit `custom-en` ist mehrdeutig und wird übersprungen. Für `Back` eines unbekannten Stapels wird keine Sprache abgeleitet; verwenden Sie „Ausgewählter Stapel“, um sie ausdrücklich festzulegen. Unmarkierte Karten werden übersprungen, Tags werden als exakte Wörter geprüft. Bis zu zwei Karten aus der aktuellen Auswahl lassen sich probehören. Beim Schließen des Fensters oder Ändern der Auswahl stoppt die Vorschau.
 
-## Data and limitations
+## Daten und Grenzen
 
-- The input `.apkg` and installed Anki profile are not modified. The app writes a separate output package and verifies its media and learning data.
-- Speech synthesis runs locally. Setup downloads the pinned runtime dependencies and voice models; they are not bundled in the repository or release package.
-- Local job metadata stores the exact text sent to synthesis, voice settings, lengths and checksums. Treat job folders and logs as private; see [speech quality and diagnostics](docs/AUDIO_QA.en.md).
-- Russian voice weights have their own **CC BY-NC 4.0** terms and are downloaded separately. See [third-party components and model terms](THIRD_PARTY.en.md).
-- Speech quality can vary for mixed-language text, abbreviations and unusual symbols. Preview the result and review skipped cards before importing.
+- Der Eingabe-Export und das installierte Anki-Profil werden nicht verändert. Die Anwendung erstellt einen separaten Export und prüft Medien sowie Lernstand.
+- Die Sprachsynthese läuft lokal. Laufzeitpakete und Stimmenmodelle werden bei der Einrichtung heruntergeladen und sind nicht im Repository oder Release-Paket enthalten.
+- Lokale Auftragsdaten speichern den genauen Synthesetext, Stimmeinstellungen, Längen und Prüfsummen. Behandeln Sie Auftragsordner und Protokolle als vertraulich; siehe [Sprachqualität und Diagnose](docs/AUDIO_QA.md).
+- Für russische Modellgewichte gelten separate **CC BY-NC 4.0**-Bedingungen. Sie werden separat heruntergeladen. Details stehen unter [Drittkomponenten und Modellbedingungen](THIRD_PARTY.md).
+- Bei gemischten Sprachen, Abkürzungen und ungewöhnlichen Zeichen kann die Aussprache abweichen. Hören Sie die Vorschau an und prüfen Sie übersprungene Karten.
 
-## Documentation
+## Dokumentation
 
-- [English user guide](https://popovantondev.github.io/AnkiSound/Guide-en.html)
-- [German user guide](https://popovantondev.github.io/AnkiSound/Guide-de.html)
-- [Russian user guide](https://popovantondev.github.io/AnkiSound/Guide-ru.html)
-- [Change history](CHANGELOG.en.md)
-- [Third-party components and model terms](THIRD_PARTY.en.md)
-- [Contributing](CONTRIBUTING.md) · [Security policy](SECURITY.md) · [License](LICENSE)
+- [Deutsche Anleitung](https://popovantondev.github.io/AnkiSound/Guide-de.html)
+- [Englische Anleitung](https://popovantondev.github.io/AnkiSound/Guide-en.html)
+- [Russische Anleitung](https://popovantondev.github.io/AnkiSound/Guide-ru.html)
+- [Änderungen](CHANGELOG.md)
+- [Drittkomponenten und Modellbedingungen](THIRD_PARTY.md)
+- [Mitwirken](CONTRIBUTING.de.md) · [Sicherheitsrichtlinie](SECURITY.de.md) · [Rechte](LICENSE.de.md)
 
-## Build and test
+## Build und Tests
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for local checks. The native macOS app requires Xcode Command Line Tools; Python dependencies and models are installed separately.
+Die lokalen Prüfungen stehen in [Mitwirken](CONTRIBUTING.de.md). Für die native macOS-App benötigen Sie Xcode Command Line Tools. Python-Pakete und Stimmenmodelle werden separat installiert.
 
-## Source code rights
+## Quellcode und Nutzungsrechte
 
-The source code is published for viewing as a portfolio. No permission is granted to use, run, copy, modify, or redistribute it. See [LICENSE](LICENSE). Third-party software and voice models have separate terms.
+Der Quellcode wird als Portfolio zur Ansicht veröffentlicht. Die unveränderte Release-Version darf für den persönlichen Gebrauch heruntergeladen und ausgeführt werden; Kopieren, Ändern und Weitergeben des Quellcodes sind nicht erlaubt. Es gibt keine Open-Source-Lizenz. Siehe [Rechte](LICENSE.de.md). Für Drittanbieter-Software und Stimmenmodelle gelten eigene Bedingungen.

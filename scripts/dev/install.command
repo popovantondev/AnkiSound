@@ -1,4 +1,4 @@
 #!/bin/zsh
 set -eu
-cd -- "${0:A:h}"
+cd -- "${0:A:h}/../.."
 /usr/bin/python3 scripts/install.py

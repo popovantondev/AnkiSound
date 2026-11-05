@@ -6,9 +6,17 @@
     "en": "images/guide-en.png"
   },
   "icon": "presentation-icon.png",
+  "stack": "Python · Swift",
   "palette": {
     "accent": "#275fb6",
     "tint": "#eaf1ff",
+    "hero": "#132b50",
+    "hero-end": "#255690"
+  },
+  "palette_dark": {
+    "accent": "#7eaaf2",
+    "accent-ink": "#0b1a36",
+    "tint": "#13264a",
     "hero": "#132b50",
     "hero-end": "#255690"
   },
@@ -28,5 +36,151 @@
       "Choose a voice",
       "Add speech"
     ]
+  },
+  "bento": {
+    "de": {
+      "inst_text": "Die Schritte aus „Installation“ in der Anleitung.",
+      "term": [
+        [
+          "ps",
+          "1. Gesamten Ordner an einen beschreibbaren Ort entpacken"
+        ],
+        [
+          "ps",
+          "2. SETUP.command starten (Python 3.9–3.12, Internet nötig)"
+        ],
+        [
+          "dim",
+          "   lädt festgelegte Pakete und das russische Stimmenmodell (SHA-256-geprüft)"
+        ],
+        [
+          "ps",
+          "3. OPEN.command starten – öffnet previews/Anki SOUND.app"
+        ],
+        [
+          "ok",
+          "4. .apkg-Export wählen, Modus wählen, Vorschau anhören, starten"
+        ]
+      ],
+      "tile": {
+        "title": "Läuft lokal",
+        "text": "Texte und Aufnahmen werden auf Ihrem Mac verarbeitet. Nur die Einrichtung lädt einmalig öffentliche Pakete und Stimmenmodelle aus dem Internet.",
+        "live": "Lokal nach der Einrichtung"
+      },
+      "features": [
+        "Vorhandene Audios ersetzen",
+        "Karten mit Tag",
+        "Ausgewählter Stapel",
+        "Sprachen: DE · FR · EN · ES · RU",
+        "Probehören vor dem Start",
+        "Original-Export bleibt unverändert",
+        "Prüfung von Medien und Lernstand",
+        "Pause und Fortsetzen",
+        "Oberfläche DE · EN · RU"
+      ],
+      "checks": [
+        "Automatische Prüfungen auf GitHub Actions (macOS 15): Kompilieren, Tests, App-Build",
+        "SHA-256-Prüfsummen und BUILD_INFO.txt im Release",
+        "Das Stimmenmodell wird bei der Einrichtung per SHA-256 geprüft",
+        "Version {v} mit Änderungsprotokoll",
+        "Getestet auf macOS 15.7 (laut Anleitung)"
+      ]
+    },
+    "en": {
+      "inst_text": "The steps from “Installation” in the guide.",
+      "term": [
+        [
+          "ps",
+          "1. Extract the whole folder to a writable location"
+        ],
+        [
+          "ps",
+          "2. Run SETUP.command (Python 3.9–3.12, internet required)"
+        ],
+        [
+          "dim",
+          "   downloads pinned packages and the Russian voice model (SHA-256 checked)"
+        ],
+        [
+          "ps",
+          "3. Run OPEN.command – opens previews/Anki SOUND.app"
+        ],
+        [
+          "ok",
+          "4. Choose an .apkg export and a mode, listen to the preview, start"
+        ]
+      ],
+      "tile": {
+        "title": "Runs locally",
+        "text": "Text and audio are processed on your Mac. Only the setup downloads public packages and voice models from the internet, once.",
+        "live": "Local after setup"
+      },
+      "features": [
+        "Replace existing audio",
+        "Cards with a tag",
+        "Selected deck",
+        "Languages: DE · FR · EN · ES · RU",
+        "Listen before you start",
+        "Original export stays unchanged",
+        "Media and study-data checks",
+        "Pause and resume",
+        "Interface DE · EN · RU"
+      ],
+      "checks": [
+        "Automatic checks on GitHub Actions (macOS 15): compile, tests, app build",
+        "SHA-256 checksums and BUILD_INFO.txt in the release",
+        "The voice model is verified by SHA-256 during setup",
+        "Version {v} with changelog",
+        "Tested on macOS 15.7 (according to the guide)"
+      ]
+    },
+    "ru": {
+      "inst_text": "Шаги из раздела «Установка» руководства.",
+      "term": [
+        [
+          "ps",
+          "1. Распаковать всю папку в место, доступное для записи"
+        ],
+        [
+          "ps",
+          "2. Запустить SETUP.command (Python 3.9–3.12, нужен интернет)"
+        ],
+        [
+          "dim",
+          "   загружает зафиксированные пакеты и русскую модель голоса (проверка SHA-256)"
+        ],
+        [
+          "ps",
+          "3. Запустить OPEN.command — откроется previews/Anki SOUND.app"
+        ],
+        [
+          "ok",
+          "4. Выбрать экспорт .apkg и режим, прослушать пример, запустить"
+        ]
+      ],
+      "tile": {
+        "title": "Работает локально",
+        "text": "Тексты и записи обрабатываются на вашем Mac. Только при установке один раз загружаются открытые пакеты и модели голосов из интернета.",
+        "live": "Локально после установки"
+      },
+      "features": [
+        "Замена существующих озвучек",
+        "Карточки с тегом",
+        "Выбранная колода",
+        "Языки: DE · FR · EN · ES · RU",
+        "Прослушивание перед запуском",
+        "Исходный экспорт не меняется",
+        "Проверка медиа и данных обучения",
+        "Пауза и продолжение",
+        "Интерфейс DE · EN · RU"
+      ],
+      "checks": [
+        "Автоматические проверки в GitHub Actions (macOS 15): компиляция, тесты, сборка приложения",
+        "Контрольные суммы SHA-256 и BUILD_INFO.txt в релизе",
+        "Модель голоса проверяется по SHA-256 при установке",
+        "Версия {v} и журнал изменений",
+        "Проверено на macOS 15.7 (по данным руководства)"
+      ]
+    }
   }
 }
