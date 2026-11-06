@@ -4,6 +4,8 @@
 
 # Anki SOUND
 
+**Deutsch** · [Русский](README.ru.md) · [English](README.en.md)
+
 <!-- public-release:start -->
 Ergänzt ausgewählte Anki-Karten um lokale Sprachausgabe und erstellt ein separat geprüftes Paket.
 
@@ -24,7 +26,7 @@ Ergänzt ausgewählte Anki-Karten um lokale Sprachausgabe und erstellt ein separ
 
 **Klare, lokal erzeugte Sprache für ausgewählte Anki-Karten. Das Original bleibt unverändert.**
 
-[Download für macOS](https://github.com/popovantondev/AnkiSound/releases/tag/v3.4.11) · [Deutsch](README.md) · [Русский](README.ru.md) · [English](README.en.md)
+[Download für macOS](https://github.com/popovantondev/AnkiSound/releases/tag/v3.4.11)
 
 **Apple Silicon · macOS 13+ · Version 3.4.11**
 

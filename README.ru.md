@@ -4,6 +4,8 @@
 
 # Anki SOUND
 
+[Deutsch](README.md) · **Русский** · [English](README.en.md)
+
 <!-- public-release:start -->
 Добавляет локальную озвучку выбранным карточкам Anki и сохраняет отдельный проверенный пакет.
 
@@ -24,7 +26,7 @@
 
 **Разборчивая локальная озвучка выбранных карточек Anki. Исходная коллекция остаётся нетронутой.**
 
-[Скачать для macOS](https://github.com/popovantondev/AnkiSound/releases/tag/v3.4.11) · [Deutsch](README.md) · [Русский](README.ru.md) · [English](README.en.md)
+[Скачать для macOS](https://github.com/popovantondev/AnkiSound/releases/tag/v3.4.11)
 
 **Apple Silicon · macOS 13+ · Версия 3.4.11**
 

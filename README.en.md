@@ -4,6 +4,8 @@
 
 # Anki SOUND
 
+[Deutsch](README.md) · [Русский](README.ru.md) · **English**
+
 <!-- public-release:start -->
 Add local speech to selected Anki cards and save a separately verified package.
 
@@ -24,7 +26,7 @@ Add local speech to selected Anki cards and save a separately verified package.
 
 **Add clear, local speech to selected Anki cards. Keep your original collection unchanged.**
 
-[Download for macOS](https://github.com/popovantondev/AnkiSound/releases/tag/v3.4.11) · [Deutsch](README.md) · [Русский](README.ru.md) · [English](README.en.md)
+[Download for macOS](https://github.com/popovantondev/AnkiSound/releases/tag/v3.4.11)
 
 **Apple Silicon · macOS 13+ · Version 3.4.11**
 
