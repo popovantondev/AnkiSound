@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="Assets/AppIcon.png" width="160" alt="Anki SOUND App-Symbol">
+  <img src="Assets/AppIcon.png" width="160" alt="Anki SOUND Symbol">
 </div>
 
 # Anki SOUND
 
-**Deutsch** · [Русский](README.ru.md) · [English](README.en.md)
+[Русский](README.ru.md) · **Deutsch** · [English](README.en.md)
 
 <!-- public-release:start -->
 Ergänzt ausgewählte Anki-Karten um lokale Sprachausgabe und erstellt ein separat geprüftes Paket.
@@ -24,15 +24,13 @@ Ergänzt ausgewählte Anki-Karten um lokale Sprachausgabe und erstellt ein separ
 **Prüfsummen:** [`SHA256SUMS.txt`](https://github.com/popovantondev/AnkiSound/releases/download/v3.4.11/SHA256SUMS.txt)
 <!-- public-release:end -->
 
-**Klare, lokal erzeugte Sprache für ausgewählte Anki-Karten. Das Original bleibt unverändert.**
-
-[Download für macOS](https://github.com/popovantondev/AnkiSound/releases/tag/v3.4.11)
-
-**Apple Silicon · macOS 13+ · Version 3.4.11**
+**[Webseite](https://popovantondev.github.io/AnkiSound/)**
 
 <p align="center"><img src="docs/images/guide-de.png" width="760" alt="Anki SOUND Oberfläche auf Deutsch, sauberer Start ohne ausgewählten Export"></p>
 
 *Deutsche Oberfläche · Frischer Start ohne ausgewählten Export.*
+
+**Klare, lokal erzeugte Sprache für ausgewählte Anki-Karten. Das Original bleibt unverändert.**
 
 Anki SOUND ist eine native macOS-Anwendung. Sie liest einen Anki-Export im Format `.apkg`, erzeugt Sprache lokal und erstellt ein separates, geprüftes Paket. Sie können Karten mit vorhandenen Audios, Karten mit sprachspezifischen Tags oder einen ausgewählten Stapel verarbeiten.
 

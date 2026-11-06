@@ -4,7 +4,7 @@
 
 # Anki SOUND
 
-[Deutsch](README.md) · **Русский** · [English](README.en.md)
+**Русский** · [Deutsch](README.md) · [English](README.en.md)
 
 <!-- public-release:start -->
 Добавляет локальную озвучку выбранным карточкам Anki и сохраняет отдельный проверенный пакет.
@@ -24,15 +24,13 @@
 **Контрольные суммы:** [`SHA256SUMS.txt`](https://github.com/popovantondev/AnkiSound/releases/download/v3.4.11/SHA256SUMS.txt)
 <!-- public-release:end -->
 
-**Разборчивая локальная озвучка выбранных карточек Anki. Исходная коллекция остаётся нетронутой.**
-
-[Скачать для macOS](https://github.com/popovantondev/AnkiSound/releases/tag/v3.4.11)
-
-**Apple Silicon · macOS 13+ · Версия 3.4.11**
+**[Сайт](https://popovantondev.github.io/AnkiSound/index-ru.html)**
 
 <p align="center"><img src="docs/images/guide-ru.png" width="760" alt="Интерфейс Anki SOUND на русском языке, чистый запуск без выбранного экспорта"></p>
 
 *Русский интерфейс · Чистый запуск без выбранного экспорта.*
+
+**Разборчивая локальная озвучка выбранных карточек Anki. Исходная коллекция остаётся нетронутой.**
 
 Anki SOUND — нативная программа для macOS. Она читает экспорт Anki `.apkg`, создаёт озвучку локально и формирует отдельный проверенный пакет. Можно выбрать карточки с уже добавленным звуком, карточки с языковыми тегами или конкретную колоду.
 

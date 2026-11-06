@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="Assets/AppIcon.png" width="160" alt="Anki SOUND app icon">
+  <img src="Assets/AppIcon.png" width="160" alt="Anki SOUND icon">
 </div>
 
 # Anki SOUND
 
-[Deutsch](README.md) · [Русский](README.ru.md) · **English**
+[Русский](README.ru.md) · [Deutsch](README.md) · **English**
 
 <!-- public-release:start -->
 Add local speech to selected Anki cards and save a separately verified package.
@@ -24,15 +24,13 @@ Add local speech to selected Anki cards and save a separately verified package.
 **Checksums:** [`SHA256SUMS.txt`](https://github.com/popovantondev/AnkiSound/releases/download/v3.4.11/SHA256SUMS.txt)
 <!-- public-release:end -->
 
-**Add clear, local speech to selected Anki cards. Keep your original collection unchanged.**
-
-[Download for macOS](https://github.com/popovantondev/AnkiSound/releases/tag/v3.4.11)
-
-**Apple Silicon · macOS 13+ · Version 3.4.11**
+**[Website](https://popovantondev.github.io/AnkiSound/index-en.html)**
 
 <p align="center"><img src="docs/images/guide-en.png" width="760" alt="Anki SOUND interface in English, clean start with no export selected"></p>
 
 *English interface · Clean start with no export selected.*
+
+**Add clear, local speech to selected Anki cards. Keep your original collection unchanged.**
 
 Anki SOUND is a native macOS app that reads an Anki `.apkg` export, generates speech locally, and creates a separate verified package. Choose cards that already contain audio, cards with language-specific tags, or cards in a selected deck.
 
