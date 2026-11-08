@@ -1,10 +1,24 @@
-<div align="center">
-  <img src="Assets/AppIcon.png" width="160" alt="Anki SOUND icon">
-</div>
+<!-- ppk-readme:head:start -->
+<a href="https://popovantondev.github.io/AnkiSound/index-en.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/header-en-dark.51c4a5c9.svg"><img src="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/header-en-light.b348a185.svg" width="880" height="188" alt="Anki SOUND — Adds local speech to your Anki cards. macOS 13+ · Apple Silicon, Release 3.4.11"></picture></a>
+<!-- ppk-readme:head:end -->
 
 # Anki SOUND
 
 [Русский](README.ru.md) · [Deutsch](README.md) · **English**
+
+<!-- ppk-readme:body:start -->
+<p>
+<a href="https://github.com/popovantondev/AnkiSound/releases/tag/v3.4.11"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/btn-download-en-dark.7a0ebdfb.svg"><img src="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/btn-download-en-light.493515ba.svg" width="136" height="36" alt="Download"></picture></a>
+<a href="https://popovantondev.github.io/AnkiSound/index-en.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/btn-website-en-dark.b2ee205a.svg"><img src="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/btn-website-en-light.11a77c56.svg" width="120" height="36" alt="Website"></picture></a>
+<a href="https://popovantondev.github.io/AnkiSound/Guide-en.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/btn-guide-en-dark.e6fb8ccf.svg"><img src="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/btn-guide-en-light.9782fe6a.svg" width="141" height="36" alt="User guide"></picture></a>
+<a href="https://github.com/popovantondev/AnkiSound/issues/new/choose"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/btn-bug-en-dark.7ed896ca.svg"><img src="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/btn-bug-en-light.d248abdf.svg" width="196" height="36" alt="Report a problem"></picture></a>
+</p>
+
+<p><a href="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/images/guide-en.png"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/preview-en-dark.50dc244b.webp"><img src="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/preview-en-light.4bf28c6e.webp" width="880" height="516" alt="Anki SOUND interface"></picture></a><br>
+<sub><a href="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/images/guide-en.png">Full screenshot</a></sub></p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/divider-dark.893eb84c.svg"><img src="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/divider-light.e4d22663.svg" width="880" height="6" alt="Divider"></picture>
+<!-- ppk-readme:body:end -->
 
 <!-- public-release:start -->
 Add local speech to selected Anki cards and save a separately verified package.
@@ -23,12 +37,6 @@ Add local speech to selected Anki cards and save a separately verified package.
 
 **Checksums:** [`SHA256SUMS.txt`](https://github.com/popovantondev/AnkiSound/releases/download/v3.4.11/SHA256SUMS.txt)
 <!-- public-release:end -->
-
-**[Website](https://popovantondev.github.io/AnkiSound/index-en.html)**
-
-<p align="center"><img src="docs/images/guide-en.png" width="760" alt="Anki SOUND interface in English, clean start with no export selected"></p>
-
-*English interface · Clean start with no export selected.*
 
 **Add clear, local speech to selected Anki cards. Keep your original collection unchanged.**
 

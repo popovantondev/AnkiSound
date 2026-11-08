@@ -1,10 +1,24 @@
-<div align="center">
-  <img src="Assets/AppIcon.png" width="160" alt="Anki SOUND Symbol">
-</div>
+<!-- ppk-readme:head:start -->
+<a href="https://popovantondev.github.io/AnkiSound/index.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/header-de-dark.aac6e850.svg"><img src="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/header-de-light.6e62dfe6.svg" width="880" height="188" alt="Anki SOUND — Ergänzt Anki-Karten um lokale Sprachausgabe. macOS 13+ · Apple Silicon, Release 3.4.11"></picture></a>
+<!-- ppk-readme:head:end -->
 
 # Anki SOUND
 
 [Русский](README.ru.md) · **Deutsch** · [English](README.en.md)
+
+<!-- ppk-readme:body:start -->
+<p>
+<a href="https://github.com/popovantondev/AnkiSound/releases/tag/v3.4.11"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/btn-download-de-dark.9adb2367.svg"><img src="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/btn-download-de-light.b80261d8.svg" width="171" height="36" alt="Herunterladen"></picture></a>
+<a href="https://popovantondev.github.io/AnkiSound/index.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/btn-website-de-dark.f7a9bff0.svg"><img src="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/btn-website-de-light.50e3147c.svg" width="129" height="36" alt="Webseite"></picture></a>
+<a href="https://popovantondev.github.io/AnkiSound/Guide-de.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/btn-guide-de-dark.d844c719.svg"><img src="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/btn-guide-de-light.48ea026f.svg" width="134" height="36" alt="Anleitung"></picture></a>
+<a href="https://github.com/popovantondev/AnkiSound/issues/new/choose"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/btn-bug-de-dark.e7bcea27.svg"><img src="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/btn-bug-de-light.84c4291a.svg" width="168" height="36" alt="Fehler melden"></picture></a>
+</p>
+
+<p><a href="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/images/guide-de.png"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/preview-de-dark.8a0397b1.webp"><img src="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/preview-de-light.c637d744.webp" width="880" height="516" alt="Oberfläche von Anki SOUND"></picture></a><br>
+<sub><a href="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/images/guide-de.png">Ganzer Screenshot</a></sub></p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/divider-dark.893eb84c.svg"><img src="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/divider-light.e4d22663.svg" width="880" height="6" alt="Trennlinie"></picture>
+<!-- ppk-readme:body:end -->
 
 <!-- public-release:start -->
 Ergänzt ausgewählte Anki-Karten um lokale Sprachausgabe und erstellt ein separat geprüftes Paket.
@@ -23,12 +37,6 @@ Ergänzt ausgewählte Anki-Karten um lokale Sprachausgabe und erstellt ein separ
 
 **Prüfsummen:** [`SHA256SUMS.txt`](https://github.com/popovantondev/AnkiSound/releases/download/v3.4.11/SHA256SUMS.txt)
 <!-- public-release:end -->
-
-**[Webseite](https://popovantondev.github.io/AnkiSound/)**
-
-<p align="center"><img src="docs/images/guide-de.png" width="760" alt="Anki SOUND Oberfläche auf Deutsch, sauberer Start ohne ausgewählten Export"></p>
-
-*Deutsche Oberfläche · Frischer Start ohne ausgewählten Export.*
 
 **Klare, lokal erzeugte Sprache für ausgewählte Anki-Karten. Das Original bleibt unverändert.**
 

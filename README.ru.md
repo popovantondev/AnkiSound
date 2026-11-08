@@ -1,10 +1,24 @@
-<div align="center">
-  <img src="Assets/AppIcon.png" width="160" alt="Значок Anki SOUND">
-</div>
+<!-- ppk-readme:head:start -->
+<a href="https://popovantondev.github.io/AnkiSound/index-ru.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/header-ru-dark.c8b0e616.svg"><img src="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/header-ru-light.5fec37be.svg" width="880" height="188" alt="Anki SOUND — Добавляет локальную озвучку карточкам Anki. macOS 13+ · Apple Silicon, Выпуск 3.4.11"></picture></a>
+<!-- ppk-readme:head:end -->
 
 # Anki SOUND
 
 **Русский** · [Deutsch](README.md) · [English](README.en.md)
+
+<!-- ppk-readme:body:start -->
+<p>
+<a href="https://github.com/popovantondev/AnkiSound/releases/tag/v3.4.11"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/btn-download-ru-dark.affc69e0.svg"><img src="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/btn-download-ru-light.24a1b0f4.svg" width="120" height="36" alt="Скачать"></picture></a>
+<a href="https://popovantondev.github.io/AnkiSound/index-ru.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/btn-website-ru-dark.7e39ca1c.svg"><img src="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/btn-website-ru-light.a5222752.svg" width="92" height="36" alt="Сайт"></picture></a>
+<a href="https://popovantondev.github.io/AnkiSound/Guide-ru.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/btn-guide-ru-dark.b54c4109.svg"><img src="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/btn-guide-ru-light.2b2eddf7.svg" width="161" height="36" alt="Руководство"></picture></a>
+<a href="https://github.com/popovantondev/AnkiSound/issues/new/choose"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/btn-bug-ru-dark.26c735f7.svg"><img src="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/btn-bug-ru-light.e0ebc8ac.svg" width="234" height="36" alt="Сообщить об ошибке"></picture></a>
+</p>
+
+<p><a href="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/images/guide-ru.png"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/preview-ru-dark.208cf4ad.webp"><img src="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/preview-ru-light.3b70a2ac.webp" width="880" height="516" alt="Интерфейс программы Anki SOUND"></picture></a><br>
+<sub><a href="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/images/guide-ru.png">Снимок целиком</a></sub></p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/divider-dark.893eb84c.svg"><img src="https://raw.githubusercontent.com/popovantondev/AnkiSound/main/docs/readme/divider-light.e4d22663.svg" width="880" height="6" alt="Разделитель"></picture>
+<!-- ppk-readme:body:end -->
 
 <!-- public-release:start -->
 Добавляет локальную озвучку выбранным карточкам Anki и сохраняет отдельный проверенный пакет.
@@ -23,12 +37,6 @@
 
 **Контрольные суммы:** [`SHA256SUMS.txt`](https://github.com/popovantondev/AnkiSound/releases/download/v3.4.11/SHA256SUMS.txt)
 <!-- public-release:end -->
-
-**[Сайт](https://popovantondev.github.io/AnkiSound/index-ru.html)**
-
-<p align="center"><img src="docs/images/guide-ru.png" width="760" alt="Интерфейс Anki SOUND на русском языке, чистый запуск без выбранного экспорта"></p>
-
-*Русский интерфейс · Чистый запуск без выбранного экспорта.*
 
 **Разборчивая локальная озвучка выбранных карточек Anki. Исходная коллекция остаётся нетронутой.**
 
